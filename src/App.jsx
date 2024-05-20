@@ -1,6 +1,7 @@
 import './App.css'
 import QrCreate from './components/QrCreate'
 import QrRead from './components/QrRead'
+import QrScan from "./components/QrScan.jsx";
 
 function App() {
 
@@ -12,8 +13,9 @@ function App() {
       <div className='qr_bigdiv'>
         <QrCreate/>
         <QrRead/>
+        <QrScan/>
         {/* <QrCameraScan/> */}
-     
+
       </div>
     </section>
     </>
