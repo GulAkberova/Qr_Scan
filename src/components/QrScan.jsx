@@ -4,6 +4,9 @@ function QrScan(props) {
   return (
     <div>
       <input type="file" accept="image/*, video/*" capture />
+
+
+      <input type="file" accept="image/*" capture="camera"></input>
     </div>
   );
 }
